@@ -1,0 +1,60 @@
+.smarfitcabecera{
+    width:100px;
+    height:50px;
+    margin:5px;
+}
+.izquierda{
+    width: 60%; /*Para que ocupe un 60% de la pantalla a lo ancho*/
+    min-height: 100vh; /*Para que el color se expanda por toda la pantalla verticalmente*/
+    float: left; /*Para que el div se desplace a la izquierda y ocupe el 60% que le corresponde*/
+    background-image: url(/Imagenes/Fondo\ aserrin.jpg);
+}
+
+.derecha{
+    width: 40%; /*Para que ocupe un 40% de la pantalla a lo ancho*/
+    min-height: 100vh; /*Para que el color se expanda por toda la pantalla verticalmente*/ 
+    float:right; /*Para que el div se desplace a la derecha y ocupe el 40% que le corresponde*/
+    background-color: #4E3B31;
+}
+
+h1{
+    width: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+.pequeño{
+    width: 120px;
+}
+
+.grande{
+    width: 200px;
+}
+
+.formulario{
+    width: 50%;
+    text-align: end;
+}
+
+input{
+    height: 25px;
+    font-size: 10px;
+    margin: 1px;
+}
+
+table{
+   margin-top: 10px;
+   margin-left: 35%;
+}
+
+select{
+    margin: 1px;
+    color: gray;
+}
+
+.calendario{
+    color:red;
+}
